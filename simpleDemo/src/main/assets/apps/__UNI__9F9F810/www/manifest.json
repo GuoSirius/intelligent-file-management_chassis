@@ -1,0 +1,160 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__9F9F810",
+  "name": "智能案卷管理平台",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview"
+    },
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "distribute": {
+      "splashscreen": {
+        "useOriginalMsgbox": true
+      },
+      "google": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ],
+        "minSdkVersion": 21,
+        "abiFilters": [
+          "armeabi-v7a",
+          "arm64-v8a",
+          "x86"
+        ]
+      },
+      "apple": {
+        "dSYMs": false
+      },
+      "plugins": {
+        "ad": {},
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#E7EAFB"
+    },
+    "uniStatistics": {
+      "enable": false
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "control": "uni-v3",
+      "vueVersion": "3",
+      "compilerVersion": "3.7.11",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      },
+      "nvueLaunchMode": "normal",
+      "webView": {
+        "minUserAgentVersion": "49.0"
+      }
+    },
+    "tabBar": {
+      "position": "bottom",
+      "color": "#000",
+      "selectedColor": "#3D80FC",
+      "borderStyle": "#DDE2EE",
+      "blurEffect": "none",
+      "fontSize": "14px",
+      "iconWidth": "28px",
+      "spacing": "3px",
+      "height": "56px",
+      "iconfontSrc": "",
+      "backgroundColor": "#FFF",
+      "list": [
+        {
+          "text": "数据统计",
+          "pagePath": "pages/data-statistics/data-statistics",
+          "iconfont": {},
+          "iconPath": "/static/images/tab-bar/data-statistics.jpg",
+          "selectedIconPath": ""
+        },
+        {
+          "text": "案卷查询",
+          "pagePath": "pages/dossier-query/dossier-query",
+          "iconfont": {},
+          "iconPath": "/static/images/tab-bar/dossier-query.jpg",
+          "selectedIconPath": ""
+        },
+        {
+          "text": "文件查询",
+          "pagePath": "pages/file-query/file-query",
+          "iconfont": {},
+          "iconPath": "/static/images/tab-bar/file-query.jpg",
+          "selectedIconPath": ""
+        },
+        {
+          "text": "案卷动态",
+          "pagePath": "pages/dossier-dynamic/dossier-dynamic",
+          "iconfont": {},
+          "iconPath": "/static/images/tab-bar/dossier-dynamic.jpg",
+          "selectedIconPath": ""
+        }
+      ],
+      "selectedIndex": 0,
+      "shown": true
+    }
+  },
+  "launch_path": "__uniappview.html"
+}
